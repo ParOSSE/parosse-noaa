@@ -1,0 +1,13 @@
+# Instrument config file for AIRS/CrIS/IASI
+# Resolution
+x_res: 4000
+y_res: 4000
+z_res: 1000
+# Errors
+# Retrieval vapor noise (percent standard deviation)
+err_vapor: 10.0
+err_vapor_pct: True
+# Retrieval temperature noise (K)
+err_temp: 0.5
+err_temp_pct: False
+

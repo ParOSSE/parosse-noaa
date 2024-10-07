@@ -1,0 +1,37 @@
+# Set names of water vapor, temperature, pressure, height (layer midpoint), cloud, and precip variables
+rh_var: "RH"
+h2o_var: "Qv"
+temp_var: "TT"
+pres_var: "Press"
+hgt_var: "z1"
+cloud_var: "Qcond"
+pcp_var: "Precip"
+lat_var: "Xlat"
+lon_var: "Xlon"
+
+y_idx: -1 # If set to -1, will default to plotting the center row
+z_idx: 1
+
+# Model grid type - equidistant or latlon
+grid_type: 'equidistant'
+
+# Set the start and end indices of the sub-domain to be read, if applicable. For full domain, set to None
+# i1: null
+# i2: null
+# j1: null
+# j2: null
+i1: None
+i2: None
+j1: None
+j2: None
+
+# Set integer coarsening factors. 1 = no coarsening
+icoarse: 1
+jcoarse: 1
+
+# Set the domain tile dimensions
+nx_tile: 50
+ny_tile: 50
+
+dz: null
+ztop: null

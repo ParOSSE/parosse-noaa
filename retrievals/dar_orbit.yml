@@ -1,0 +1,12 @@
+antenna_diam: 2
+pow_tx: 100
+orbital_alt: 400
+v_sat: 7909.539724812034
+tau_pulse: 5.0e-05
+dutycycle: 0.25
+noisefig: 8
+Tscene: 280
+T_alongtrack: 0.05
+numfreqs: 3
+# minsnr: 3
+minsnr: 1

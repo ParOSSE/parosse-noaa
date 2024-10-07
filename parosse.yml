@@ -1,0 +1,81 @@
+# This is the config file for the PBL OSSE workflow.
+# Will return information in a single dictionary
+# Nature run settings
+nr_type:        'GEOS'
+nr_expt:        'G5NR'
+nr_date:        '20060825'
+nr_time:        '1800'
+# Satellite type and how to handle masking clouds and/or precip
+sat_type:       'ATMS'
+mask_cloud:     False
+mask_precip:    True
+cloud_thresh:   1.e-1
+precip_thresh:  1.0
+# Parallelism and file settings
+parmode:        'seq'
+num_workers:    1
+Verbose:        True
+output_path:    '/Users/derekp/parosse-noaa/data/'
+plot_path:      '/Users/derekp/parosse-noaa/Plots/'
+# Whether to read data from an existing file (True) or compute it (False)
+read_RTM:       False
+read_INST:      False
+read_RETR:      False
+
+
+# Complete list of NR settings follows
+# -----------------------------------
+#                 RAMS
+# -----------------------------------
+# # Model type - case insensitive, but supported types are (so far): GCE, RAMS, WRF, GEOS
+# expt_config['nr_type'] = 'RAMS'
+# # Model experiment
+# expt_config['nr_expt'] = 'DRC1.1-R'
+# # Model date (YYYY-MM-DD) - required for RAMS
+# expt_config['nr_date'] = '2016-12-30'
+# # Model time (HHMNSS) - required for RAMS
+# expt_config['nr_time'] = '120000'
+# -----------------------------------
+#                 GCE
+# -----------------------------------
+# # Model type - case insensitive, but supported types are (so far): GCE, RAMS, WRF, GEOS
+# expt_config['nr_type'] = 'GCE'
+# # Model experiment
+# expt_config['nr_expt'] = 'Feb23' # 'Aug17'
+# # Model date (YYYY-MM-DD)
+# expt_config['nr_date'] = '1999-02-23' # '1999-08-17'
+# # Model time (HH-MN-SS)
+# expt_config['nr_time'] = '04_30_00' # '05_00_00'
+# -----------------------------------
+#                 GEOS
+# -----------------------------------
+# # Model type - case insensitive, but supported types are (so far): GCE, RAMS, WRF, GEOS
+# expt_config['nr_type'] = 'GEOS'
+# # Model experiment
+# expt_config['nr_expt'] = 'G5NR'
+# # Model date (YYYYMMDD) - required for G5NR
+# expt_config['nr_date'] = '20060825'
+# # Model time (HHMN) - required for G5NR
+# expt_config['nr_time'] = '1800'
+# -----------------------------------
+#                 WRF
+# -----------------------------------
+# # Model type - case insensitive, but supported types are (so far): GCE, RAMS, WRF, GEOS
+# expt_config['nr_type'] = 'WRF'
+# # Model experiment
+# expt_config['nr_expt'] = 'Harvey'
+# # Model date (YYYY-MM-DD) - required for WRF
+# expt_config['nr_date'] = '2017-08-24'
+# # Model time (HH:MN:SS) - required for WRF
+# expt_config['nr_time'] = '00:00:00'
+# -----------------------------------
+#                 LES
+# -----------------------------------
+# # Model type - case insensitive, but supported types are (so far): GCE, RAMS, WRF, GEOS
+# expt_config['nr_type'] = 'LES'
+# # Model experiment
+# expt_config['nr_expt'] = 'RICO' # 'RICO', 'VOCALS'
+# # Model date (YYYYMMDD) - Not required for LES
+# expt_config['nr_date'] = ''
+# # Model time (SSSSS) - required for LES
+# expt_config['nr_time'] = '61200' # '10800', '14400', '61200', '86400'

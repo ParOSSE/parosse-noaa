@@ -1,0 +1,20 @@
+config:
+  # For paths use path join instead of concat.
+  path: "/Volumes/Posselt-Data/INCUS/"
+  file_prefix:  "a-L"
+  file_suffix1: "-g3.h5"
+  file_suffix2: "-head.txt"
+
+  # Model horizontal grid spacing in meters and in km
+  dxm: 100.0
+  dx: 0.1
+  dym: 100.0
+  dy: 0.1
+
+  # Set integer coarsening factors. 1 = no coarsening
+  icoarse: 5
+  jcoarse: 5
+
+  # Set the domain tile dimensions - note that this MUST be a multiple of the coarsening factor
+  nx_tile: 100
+  ny_tile: 100

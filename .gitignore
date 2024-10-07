@@ -1,0 +1,11 @@
+.DS_Store
+*.mod
+*.exe
+*.h5
+*.nc
+*.pyc
+*.png
+*.log
+*.gz
+*.zip
+

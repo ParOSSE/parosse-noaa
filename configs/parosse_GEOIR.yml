@@ -1,0 +1,27 @@
+# This is the config file for the ParOSSE workflow.
+# Will return information in a single dictionary
+# Nature run settings
+# Model type - case insensitive, but supported types are (so far): GCE, RAMS, WRF, GEOS
+nr_type:        'GEOS'
+# Model experiment
+nr_expt:        'G5NR'
+# Model date (YYYYMMDD) - required for G5NR
+nr_date:        '20060825'
+# Model time (HHMN) - required for G5NR
+nr_time:        '1800'
+# Satellite type and how to handle masking clouds and/or precip
+sat_type:       'GEOIR'
+mask_cloud:     True 
+mask_precip:    False
+cloud_thresh:   1.e-1
+precip_thresh:  1.0
+# Parallelism and file settings
+parmode:        'par'
+num_workers:    8
+Verbose:        True
+output_path:    '/Users/derekp/parosse-noaa/data/'
+plot_path:      '/Users/derekp/parosse-noaa/Plots/'
+# Whether to read data from an existing file (True) or compute it (False)
+read_RTM:       False
+read_INST:      False
+read_RETR:      False

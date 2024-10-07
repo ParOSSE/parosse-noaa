@@ -1,0 +1,56 @@
+expt:
+  G5NR:
+    # path: "/Volumes/Posselt-Data/GEOS_Output/"
+    path: "/Users/derekp/data/GEOS_Output/"
+    file_prefix: "c1440_NR.inst30mn_"
+
+    # Set names of files to be entered as input to the read function
+    nr_file1: "c1440_NR.inst30mn"
+
+    # Model grid type - equidistant or latlon
+    grid_type: 'latlon'
+
+    # Model horizontal grid spacing in meters and in km
+    # dxm: 7000.0
+    # dx: 7.0
+    # dym: 7000.0
+    # dy: 7.0
+
+    # Model horizontal grid spacing in lat and lon
+    dlat: 0.0625
+    dlon: 0.0625
+
+    # Set the domain tile dimensions
+    nx_tile: 160
+    ny_tile: 160
+
+    # Set the start and end indices of the sub-domain to be read, if applicable. For full domain, set to None
+    # Small region around spiral band 1800 UTC 25 August 2006
+    # i1: 1696
+    # i2: 1856
+    # j1: 1728
+    # j2: 1888
+
+    # Hurricane region at 1800 UTC 25 August 2006
+    i1: 1496
+    i2: 2056
+    j1: 1528
+    j2: 2088
+
+    # Full domain
+    # i1: 0
+    # i2: 5760
+    # j1: 0
+    # j2: 2880
+
+    # Full domain 35S - 35N
+    # i1: 0
+    # i2: 5760
+    # j1: 560
+    # j2: 2000
+
+    # Tropical NH 0 - 35N
+    # i1: 0
+    # i2: 5760
+    # j1: 1440
+    # j2: 2000

@@ -1,0 +1,6 @@
+# This is the yaml config file for the DAR retrieval using RICO LES as input
+files:      ['RICO.61200s_c4_VIPR_158.6GHz.nc', 'RICO.61200s_c4_VIPR_167.0GHz.nc', 'RICO.61200s_c4_VIPR_174.8GHz.nc']
+outname:    'VIPR_Retrieval_RICO_61200s.nc'
+instfile:   'dar_orbit.yml'
+force:      True
+rstep_inp:  0.2

@@ -1,0 +1,10 @@
+# This is the yaml config file for the DAR retrieval using RAMS as input
+files:      [ 'a-L-2016-12-30-120000-g3_dz100_ARTS_I07_S09_A20_G29_H34_c1_VIPR_G1_rom_600-1200y.nc', 
+              'a-L-2016-12-30-120000-g3_dz100_ARTS_I07_S09_A20_G29_H34_c1_VIPR_G2_rom_600-1200y.nc', 
+              'a-L-2016-12-30-120000-g3_dz100_ARTS_I07_S09_A20_G29_H34_c1_VIPR_G3_rom_600-1200y.nc'
+              ]
+outname:    'VIPR_Retrieval_DRC1_1-R-V0_2016-12-30-120000-g3.nc'
+instfile:   'dar_orbit.yml'
+force:      True
+rstep_inp:  0.2
+

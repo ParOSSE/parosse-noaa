@@ -1,0 +1,13 @@
+# Instrument config file for AMSU/ATMS
+# Resolution
+x_res: 32000
+y_res: 32000
+z_res: 3000
+# Errors
+# Retrieval vapor noise (percent standard deviation)
+err_vapor: 15.0
+err_vapor_pct: True
+# Retrieval temperature noise (K)
+err_temp: 1.0
+err_temp_pct: False
+

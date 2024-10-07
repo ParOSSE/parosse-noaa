@@ -1,0 +1,18 @@
+expt:
+  HARVEY:
+    path: "/Users/derekp/data/Hurricane_Harvey/"
+    file_prefix: "WRF_Harvey_"
+    nr_file1: 'wrfout_d03_'
+
+    # Model horizontal grid spacing in meters and in km
+    dxm: 3000.0
+    dym: 3000.0
+
+  MCS:
+    path: "./data/"
+    file_prefix: "wrfout_d01_"
+    nr_file1: 'wrfout_d01_'
+
+    # Model horizontal grid spacing in meters and in km
+    dxm: 3500.0
+    dym: 3500.0
