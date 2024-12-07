@@ -35,6 +35,10 @@ The top level code that runs the workflow is contained in "Run_pbl_osse.py", and
 
 Users wishing to test this version will need to provide their own nature run data, and to adjust the "create_nr_config.py" file to point to their data. They may need to provide their own read function as well.
 
+The default configuration is set up to run with a case from the GEOS-5 nature run. Test data can be obtained from:
+
+https://zenodo.org/records/14294436
+
 Base requirements: numpy, scipy, netCDF4, hdf5, hdf5plugin
 Requirements for ParMAP: json, pysparkling, multiprocessing, pickle, cloudpickle, tqdm, boto3, pandas
  
