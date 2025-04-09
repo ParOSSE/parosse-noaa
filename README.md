@@ -30,7 +30,7 @@ Each sub-system has its own sub-directory containing codes relevant for that par
 
 The workflow is intended to be flexible and extensible.
 
-The top level code that runs the workflow is contained in "Run_pbl_osse.py", and a sample jupyter notebook is provided that shows how each stage of the workflow is applied (Run_PBL_OSSE.ipynb).
+The top level code that runs the workflow is contained in "Run_parosse.py", and a sample jupyter notebook is provided that shows how each stage of the workflow is applied (Run_parosse.ipynb).
 
 Users wishing to test this version will need to provide their own nature run data, and to adjust the "create_nr_config.py" file to point to their data. They may need to provide their own read function as well.
 
