@@ -25,7 +25,6 @@ Exercises the full end-to-end ParOSSE workflow, with CSV inputs and outputs.
 4. Runs the instrument model
 5. Runs the retrieval
 6. Analyzes and plots the output
-7. Runs (optional) data fusion
 
 Each sub-system has its own sub-directory containing codes relevant for that particular part of the workflow
 
