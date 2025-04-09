@@ -1,7 +1,7 @@
 # parosse-noaa
 This repository contains codes required to run the ParOSSE workflow from end to end for a given architecture. 
 
-The codes are compatible with python 3.x. To begin, install the required packages in the requirements.txt file as follows
+The codes are compatible with python 3.10. To begin, install the required packages in the requirements.txt file as follows
 
     pip install -r requirements.txt
 
